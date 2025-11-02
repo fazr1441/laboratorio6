@@ -1,33 +1,26 @@
-#header{
-    padding-left: 150px;
-    padding-top: 30px;
-    margin: auto;
-    width: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.nav li a{
-    background-color: #000;
-    color: #fff;
-    text-decoration:none;
-    padding: 10px 15px;
-    
-}
-ul, ol {
-    list-style: none;
+/* estilos.css */
+
+/* Reset mínimo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo de Bootstrap */
+    color: #212529;
+    padding-top: 70px; /* Espacio para la barra de navegación fija */
 }
 
-.nav  li a:hover {
-    background-color: #434343;
-}  
+/* Estilos de las Cards */
+.card-img-top {
+    height: 200px; /* Altura fija para todas las imágenes de card */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}
 
-.nav > li{
-    float: left;
-}
-body{
-    padding-left: 40px;
-}
-#carouselExampleControls{
-    max-height: 400px;
-    max-width: 300px;
-    padding-top: 50px;
+/* Estilo para la sección de contacto */
+#mapa {
+    height: 300px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
