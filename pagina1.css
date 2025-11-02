@@ -3,18 +3,53 @@
 /* Reset mínimo */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa; /* Color de fondo de Bootstrap */
+    background-color: #f8f9fa; 
     color: #212529;
-    padding-top: 70px; /* Espacio para la barra de navegación fija */
+    padding-top: 50px; /* Deja espacio para la navegación simple */
 }
 
-/* Estilos de las Cards */
+/* Estilo para la navegación simple (similar a tu ejemplo) */
+#header {
+    background-color: #343a40; /* Fondo oscuro */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Para que quede encima de todo */
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #007bff; /* Azul de Bootstrap */
+    color: #ffffff;
+}
+
+/* Estilos de las Cards (usado en index.html) */
 .card-img-top {
-    height: 200px; /* Altura fija para todas las imágenes de card */
-    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    height: 200px;
+    object-fit: cover;
 }
 
-/* Estilo para la sección de contacto */
+/* Estilo para la sección de mapa/ubicación (usado en contacto.html) */
 #mapa {
     height: 300px;
     background-color: #e9ecef;
